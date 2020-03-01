@@ -95,6 +95,7 @@ bool AppInit(int argc, char* argv[])
         {
             // First part of help message is specific to fedoracoind / RPC client
             std::string strUsage = _("Fedoracoin Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
+                _("It is Maintaining, Compiling and Building by EdgeCity Wanderer at 2020.") + "\n" +
                 _("Usage:") + "\n" +
                   "  fedoracoind [options]                     " + _("Start Fedoracoin Core Daemon") + "\n" +
                 _("Usage (deprecated, use fedoracoin-cli):") + "\n" +
